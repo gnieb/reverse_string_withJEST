@@ -1,1 +1,1 @@
-const reverse_string = require
+const reverse_string = require('./app')
