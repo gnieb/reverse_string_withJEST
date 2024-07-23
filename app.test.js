@@ -12,6 +12,10 @@ test('reverses HELLO THERE to be EREHT OLLEH', () => {
     expect(reverse_string('HELLO THERE')).toBe('EREHT OLLEH');
 });
 
+test('reverses a WordwithNumbers789 to be 987srebmuNhtiwdroW', () => {
+    expect(reverse_string('WordwithNumbers789')).toBe('987srebmuNhtiwdroW');
+});
+
 
 
 
