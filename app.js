@@ -9,5 +9,8 @@ function reverse_string (word) {
     return wordArray.join("")
 }
 
-console.log("Reverse hello: ", reverse_string('hello'))
-console.log("should be: olleh")
+// console.log("Reverse hello: ", reverse_string('hello'))
+// console.log("should be: olleh")
+
+
+module.exports = reverse_string;
